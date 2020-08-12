@@ -10,6 +10,6 @@ public class RotateContinuously : MonoBehaviour
     {
 	float rot = Time.deltaTime * speedRot;
 
-	gameObject.transform.Rotate( new Vector3( 0f, rot, 0f ) );
+	gameObject.transform.Rotate( new Vector3( 0f, rot, 0f ), Space.World );
     }
 }
