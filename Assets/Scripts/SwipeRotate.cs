@@ -6,8 +6,10 @@ public class SwipeRotate : MonoBehaviour
 {
     private Touch touch;
     private Vector2 touchPosition;
-    private Quaternion rotY;
-    public float rotateSpeedModifier = 0.1f;
+    private Quaternion rotXY;
+
+    public float rotateSpeedX = 0.1f;
+    public float rotateSpeedY = 0.1f;
     
     void Update()
     {
@@ -16,10 +18,9 @@ public class SwipeRotate : MonoBehaviour
             touch = Input.GetTouch(0);
             if (touch.phase == TouchPhase.Moved)
             {
-                rotY = Quaternion.Euler(0f, - touch.deltaPosition.x * rotateSpeedModifier, 0f);
-                transform.rotation = rotY * transform.rotation;
+                rotXY = Quaternion.Euler(touch.deltaPosition.y * rotateSpeedX, - touch.deltaPosition.x * rotateSpeedY, 0f);
+                transform.rotation = rotXY * transform.rotation;
             }
         }
-
     }
 }

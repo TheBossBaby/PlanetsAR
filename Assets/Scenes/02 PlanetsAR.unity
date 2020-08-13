@@ -827,7 +827,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: eb8cd9d38426b1d4bb1d3369d2e89aa7,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb8cd9d38426b1d4bb1d3369d2e89aa7, type: 3}
@@ -1068,12 +1068,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490496479}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30ac77f65d2421d4a983c9b464d77518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedRot: 5
+  speedRot: -25
 --- !u!114 &490496482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1086,7 +1086,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc1d1746969750246809d3ad2655e34a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedModifier: 0.1
+  rotateSpeedX: 0.025
+  rotateSpeedY: 0.1
 --- !u!1001 &565211141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3886,7 +3887,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: b967352c1d84c494cbb1addbf27a5963,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b967352c1d84c494cbb1addbf27a5963, type: 3}
