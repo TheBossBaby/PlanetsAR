@@ -1,5 +1,5 @@
 # PlanetsAR
-A guide to our solar system. Have a closer look at the planets revolving around the Sun.
+A closer guide to our entire solar system.
 
 ![GitHub issues](https://img.shields.io/github/issues/AgrMayank/PlanetsAR?label=Issues&style=flat-square)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/AgrMayank/PlanetsAR?label=Pull%20Requests&style=flat-square)
