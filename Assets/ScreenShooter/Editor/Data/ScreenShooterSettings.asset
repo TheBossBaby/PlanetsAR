@@ -14,17 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Camera: {fileID: 0}
   ScreenshotConfigs:
-  - Name: Custom
-    Width: 1024
-    Height: 500
+  - Name: iPad Hi-Res Portrait
+    Width: 1536
+    Height: 2048
     Type: 0
   - Name: iPad Pro Portrait
     Width: 2048
     Height: 2732
-    Type: 0
-  - Name: iPad Hi-Res Portrait
-    Width: 1536
-    Height: 2048
     Type: 0
   Tag: 01_
   AppendTimestamp: 1
