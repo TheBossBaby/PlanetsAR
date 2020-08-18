@@ -1,5 +1,5 @@
 # PlanetsAR
-A closer guide to our entire solar system.
+Bring Planets to Life via Augmented Reality (AR)! Let's go 🚀
 
 ![GitHub issues](https://img.shields.io/github/issues/AgrMayank/PlanetsAR?label=Issues&style=flat-square)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/AgrMayank/PlanetsAR?label=Pull%20Requests&style=flat-square)
