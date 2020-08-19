@@ -8,6 +8,9 @@ Bring Planets to Life via Augmented Reality (AR)! Let's go 🚀
 ![GitHub All Releases](https://img.shields.io/github/downloads/AgrMayank/PlanetsAR/total?label=Downloads&style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/AgrMayank/PlanetsAR?label=Repo%20Size&style=flat-square)
 
+# Download
+Play Store - [https://play.google.com/store/apps/details?id=com.AgrMayank.PlanetsAR](https://play.google.com/store/apps/details?id=com.AgrMayank.PlanetsAR)
+
 # Quickstart
 
 - Download [Unity](https://unity3d.com/get-unity/download/archive) version 2019.3 or above.
