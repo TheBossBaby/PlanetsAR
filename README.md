@@ -5,7 +5,6 @@ Bring Planets to Life via Augmented Reality (AR)! Let's go 🚀
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/AgrMayank/PlanetsAR?label=Pull%20Requests&style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/AgrMayank/PlanetsAR?label=Last%20Commit&style=flat-square)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/AgrMayank/PlanetsAR?label=Commit%20Activity&style=flat-square)
-![GitHub All Releases](https://img.shields.io/github/downloads/AgrMayank/PlanetsAR/total?label=Downloads&style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/AgrMayank/PlanetsAR?label=Repo%20Size&style=flat-square)
 
 # Download
