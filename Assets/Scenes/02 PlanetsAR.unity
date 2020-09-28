@@ -7190,7 +7190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc1d1746969750246809d3ad2655e34a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0.025
+  rotateSpeedX: 0.04
   rotateSpeedY: 0.1
 --- !u!114 &512583495
 MonoBehaviour:
@@ -7212,7 +7212,7 @@ MonoBehaviour:
     RequiredSelectable: {fileID: 0}
   Camera: {fileID: 963194227}
   Relative: 0
-  Sensitivity: 0.1
+  Sensitivity: 0.25
   Dampening: -1
   remainingScale: {x: 0, y: 0, z: 0}
 --- !u!1 &522345500
@@ -7934,7 +7934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc1d1746969750246809d3ad2655e34a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0.025
+  rotateSpeedX: 0.04
   rotateSpeedY: 0.1
 --- !u!114 &567371662
 MonoBehaviour:
@@ -7956,7 +7956,7 @@ MonoBehaviour:
     RequiredSelectable: {fileID: 0}
   Camera: {fileID: 963194227}
   Relative: 0
-  Sensitivity: 0.1
+  Sensitivity: 0.25
   Dampening: -1
   remainingScale: {x: 0, y: 0, z: 0}
 --- !u!1 &567906942
@@ -8857,7 +8857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc1d1746969750246809d3ad2655e34a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0.025
+  rotateSpeedX: 0.04
   rotateSpeedY: 0.1
 --- !u!114 &616924338
 MonoBehaviour:
@@ -8879,7 +8879,7 @@ MonoBehaviour:
     RequiredSelectable: {fileID: 0}
   Camera: {fileID: 963194227}
   Relative: 0
-  Sensitivity: 0.1
+  Sensitivity: 0.25
   Dampening: -1
   remainingScale: {x: 0, y: 0, z: 0}
 --- !u!1001 &621812557
@@ -9608,7 +9608,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.94509804, g: 0.93333334, b: 0.89411765, a: 1}
+  m_Color: {r: 1, g: 0.9411765, b: 0.74509805, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -10226,7 +10226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc1d1746969750246809d3ad2655e34a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0.025
+  rotateSpeedX: 0.04
   rotateSpeedY: 0.1
 --- !u!114 &752384175
 MonoBehaviour:
@@ -10248,7 +10248,7 @@ MonoBehaviour:
     RequiredSelectable: {fileID: 0}
   Camera: {fileID: 963194227}
   Relative: 0
-  Sensitivity: 0.1
+  Sensitivity: 0.25
   Dampening: -1
   remainingScale: {x: 0, y: 0, z: 0}
 --- !u!1 &756914277
@@ -10490,7 +10490,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.94509804, g: 0.93333334, b: 0.89411765, a: 1}
+  m_Color: {r: 1, g: 0.9411765, b: 0.74509805, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -11668,7 +11668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc1d1746969750246809d3ad2655e34a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0.025
+  rotateSpeedX: 0.04
   rotateSpeedY: 0.1
 --- !u!114 &911732206
 MonoBehaviour:
@@ -11690,7 +11690,7 @@ MonoBehaviour:
     RequiredSelectable: {fileID: 0}
   Camera: {fileID: 963194227}
   Relative: 0
-  Sensitivity: 0.1
+  Sensitivity: 0.25
   Dampening: -1
   remainingScale: {x: 0, y: 0, z: 0}
 --- !u!1 &912763641
@@ -12553,7 +12553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc1d1746969750246809d3ad2655e34a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0.025
+  rotateSpeedX: 0.04
   rotateSpeedY: 0.1
 --- !u!114 &978934082
 MonoBehaviour:
@@ -12575,7 +12575,7 @@ MonoBehaviour:
     RequiredSelectable: {fileID: 0}
   Camera: {fileID: 963194227}
   Relative: 0
-  Sensitivity: 0.1
+  Sensitivity: 0.25
   Dampening: -1
   remainingScale: {x: 0, y: 0, z: 0}
 --- !u!1 &985962428
@@ -14372,7 +14372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc1d1746969750246809d3ad2655e34a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0.025
+  rotateSpeedX: 0.04
   rotateSpeedY: 0.1
 --- !u!114 &1153505961
 MonoBehaviour:
@@ -14394,7 +14394,7 @@ MonoBehaviour:
     RequiredSelectable: {fileID: 0}
   Camera: {fileID: 963194227}
   Relative: 0
-  Sensitivity: 0.1
+  Sensitivity: 0.25
   Dampening: -1
   remainingScale: {x: 0, y: 0, z: 0}
 --- !u!1 &1156702289
@@ -15634,7 +15634,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.94509804, g: 0.93333334, b: 0.89411765, a: 1}
+  m_Color: {r: 1, g: 0.9411765, b: 0.74509805, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -16775,7 +16775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc1d1746969750246809d3ad2655e34a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0.025
+  rotateSpeedX: 0.04
   rotateSpeedY: 0.1
 --- !u!114 &1318622706
 MonoBehaviour:
@@ -16797,7 +16797,7 @@ MonoBehaviour:
     RequiredSelectable: {fileID: 0}
   Camera: {fileID: 963194227}
   Relative: 0
-  Sensitivity: 0.1
+  Sensitivity: 0.25
   Dampening: -1
   remainingScale: {x: 0, y: 0, z: 0}
 --- !u!1001 &1320986031
@@ -17890,7 +17890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc1d1746969750246809d3ad2655e34a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0.025
+  rotateSpeedX: 0.04
   rotateSpeedY: 0.1
 --- !u!114 &1361503892
 MonoBehaviour:
@@ -17912,7 +17912,7 @@ MonoBehaviour:
     RequiredSelectable: {fileID: 0}
   Camera: {fileID: 963194227}
   Relative: 0
-  Sensitivity: 0.1
+  Sensitivity: 0.25
   Dampening: -1
   remainingScale: {x: 0, y: 0, z: 0}
 --- !u!1 &1366134003
@@ -19912,7 +19912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc1d1746969750246809d3ad2655e34a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0.025
+  rotateSpeedX: 0.04
   rotateSpeedY: 0.1
 --- !u!114 &1497075529
 MonoBehaviour:
@@ -19934,7 +19934,7 @@ MonoBehaviour:
     RequiredSelectable: {fileID: 0}
   Camera: {fileID: 963194227}
   Relative: 0
-  Sensitivity: 0.1
+  Sensitivity: 0.25
   Dampening: -1
   remainingScale: {x: 0, y: 0, z: 0}
 --- !u!1 &1499364957
@@ -20977,7 +20977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc1d1746969750246809d3ad2655e34a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0.025
+  rotateSpeedX: 0.04
   rotateSpeedY: 0.1
 --- !u!114 &1629387803
 MonoBehaviour:
@@ -20999,7 +20999,7 @@ MonoBehaviour:
     RequiredSelectable: {fileID: 0}
   Camera: {fileID: 963194227}
   Relative: 0
-  Sensitivity: 0.1
+  Sensitivity: 0.25
   Dampening: -1
   remainingScale: {x: 0, y: 0, z: 0}
 --- !u!1 &1632888757 stripped
@@ -21020,7 +21020,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc1d1746969750246809d3ad2655e34a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0.025
+  rotateSpeedX: 0.04
   rotateSpeedY: 0.1
 --- !u!114 &1632888759
 MonoBehaviour:
@@ -21042,7 +21042,7 @@ MonoBehaviour:
     RequiredSelectable: {fileID: 0}
   Camera: {fileID: 963194227}
   Relative: 0
-  Sensitivity: 0.1
+  Sensitivity: 0.25
   Dampening: -1
   remainingScale: {x: 0, y: 0, z: 0}
 --- !u!1 &1646040885
@@ -22907,8 +22907,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1021170451}
   m_HandleRect: {fileID: 1021170450}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.4364799
+  m_Value: 1.0000001
+  m_Size: 0.40639898
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -26395,7 +26395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc1d1746969750246809d3ad2655e34a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0.025
+  rotateSpeedX: 0.04
   rotateSpeedY: 0.1
 --- !u!114 &1952526423
 MonoBehaviour:
@@ -26417,7 +26417,7 @@ MonoBehaviour:
     RequiredSelectable: {fileID: 0}
   Camera: {fileID: 963194227}
   Relative: 0
-  Sensitivity: 0.1
+  Sensitivity: 0.25
   Dampening: -1
   remainingScale: {x: 0, y: 0, z: 0}
 --- !u!1 &1984738312

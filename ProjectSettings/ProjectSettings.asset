@@ -259,7 +259,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{dedicated}: Documents/PlanetsAR.keystore'
+  AndroidKeystoreName: '{dedicated}: PlanetsAR.keystore'
   AndroidKeyaliasName: planetsar
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
@@ -279,7 +279,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 933c4ad8b1db8394fb597cafd1ba4146, type: 3}
+      m_Icon: {fileID: 2800000, guid: abbbe6d873b176f489d43f06bc1f0b8b, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0

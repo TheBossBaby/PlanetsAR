@@ -1166,7 +1166,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.8820755, g: 0.8986363, b: 1, a: 1}
+  m_Color: {r: 0.9103774, g: 0.9223271, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -2202,7 +2202,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.9694775, b: 0.8726415, a: 1}
+  m_Color: {r: 1, g: 0.9540309, b: 0.6839622, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -2718,7 +2718,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.9694775, b: 0.8726415, a: 1}
+  m_Color: {r: 1, g: 0.9540309, b: 0.6839622, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -3786,7 +3786,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.8820755, g: 0.8986363, b: 1, a: 1}
+  m_Color: {r: 0.9103774, g: 0.9223271, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -4272,7 +4272,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.9694775, b: 0.8726415, a: 1}
+  m_Color: {r: 1, g: 0.9540309, b: 0.6839622, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -4481,7 +4481,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.8820755, g: 0.8986363, b: 1, a: 1}
+  m_Color: {r: 0.9103774, g: 0.9223271, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -5281,8 +5281,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc1d1746969750246809d3ad2655e34a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeedX: 0.01
-  rotateSpeedY: 0.1
+  rotateSpeedX: 0.025
+  rotateSpeedY: 0.075
 --- !u!1 &1757897846
 GameObject:
   m_ObjectHideFlags: 0
