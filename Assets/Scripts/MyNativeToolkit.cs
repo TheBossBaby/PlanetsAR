@@ -41,7 +41,12 @@ public class MyNativeToolkit : MonoBehaviour
 
     public void Share()
     {
-        new NativeShare().AddFile(screenshotPath).SetTitle("Planets AR").SetText("Bring Planets to Life via Augmented Reality (AR). Let's go 🚀\n\nhttps://play.google.com/store/apps/details?id=com.AgrMayank.PlanetsAR").Share();
+        new NativeShare().SetTitle("Planets AR").SetText("*Planets AR - A Guide to our olar System* 🚀\n\nBring Planets to Life via Augmented Reality (AR). Let's go 🚀\n\nhttps://play.google.com/store/apps/details?id=com.AgrMayank.PlanetsAR").Share();
+    }
+
+    public void CaptureNativeScreenshot()
+    {
+        ScreenCapture.CaptureScreenshot("/storage/emulated/0/DCIM/Planets AR/Planets AR");
     }
 
     public void OnSaveScreenshotPress()
@@ -58,7 +63,7 @@ public class MyNativeToolkit : MonoBehaviour
             }
         }
 
-        NativeToolkit.SaveScreenshot("Planets AR", "/storage/emulated/0/DCIM/Planets AR", "png");
+        NativeToolkit.SaveScreenshot("Planets AR", "/storage/emulated/0/DCIM/PlanetsAR", "png");
     }
 
     // public void OnSaveImagePress()
@@ -117,7 +122,7 @@ public class MyNativeToolkit : MonoBehaviour
 
     public void OnRateAppPress()
     {
-        NativeToolkit.RateApp("Like the app?", "Give us a 5 ⭐ rating and share your valuable feedback with us for more such experiences!", "Rate Now", "", "No, Thanks!", "", AppRated);
+        NativeToolkit.RateApp("Like the app?", "Give us a 5 ⭐ rating and share your valuable feedback with us for more amazing apps!", "Rate Now", "", "No, Thanks!", "", AppRated);
     }
 
     //=============================================================================
@@ -126,7 +131,7 @@ public class MyNativeToolkit : MonoBehaviour
 
     void ScreenshotSaved(string path)
     {
-        screenshotPath = path;
+        // screenshotPath = path;
         console.text += "\n" + "Screenshot saved to: " + path;
 
         for (int i = 0; i < toToggle.Length; i++)
