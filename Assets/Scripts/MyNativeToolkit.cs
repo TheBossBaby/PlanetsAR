@@ -41,7 +41,7 @@ public class MyNativeToolkit : MonoBehaviour
 
     public void Share()
     {
-        new NativeShare().SetTitle("Planets AR").SetText("*Planets AR - A Guide to our olar System* 🚀\n\nBring Planets to Life via Augmented Reality (AR). Let's go 🚀\n\nhttps://play.google.com/store/apps/details?id=com.AgrMayank.PlanetsAR").Share();
+        new NativeShare().SetTitle("Planets AR").SetText("*Planets AR - A Guide to our Solar System* 🚀\n\nBring Planets to Life via Augmented Reality (AR). Let's go 🚀\n\nhttps://play.google.com/store/apps/details?id=com.AgrMayank.PlanetsAR").Share();
     }
 
     public void CaptureNativeScreenshot()
