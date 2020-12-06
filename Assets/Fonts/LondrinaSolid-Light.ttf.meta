@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 15903180c4dc88e4895c1b8ed193808e
+guid: 00ec63c0b55ca3149be045368a9a6b13
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Skranji
+  fontName: Londrina Solid
   fontNames:
-  - Skranji
+  - Londrina Solid
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
