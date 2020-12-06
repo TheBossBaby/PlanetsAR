@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class OpenURL : MonoBehaviour
 {
-    public string URL = "https://agrmayank.github.io";
+    public string URL = "https://agrmayank.com";
+
     public void OpenURLInBrowser()
     {
         Application.OpenURL(URL);

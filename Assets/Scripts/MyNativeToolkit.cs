@@ -5,15 +5,9 @@ using UnityEngine.UI;
 
 public class MyNativeToolkit : MonoBehaviour
 {
-    public Text console;
-
-    void Start()
-    {
-    }
-
     public void Share()
     {
-        new NativeShare().SetTitle("Planets AR").SetText("\"Planets AR - A Guide to our Solar System 🚀 \"\n\nBring Planets to Life via Augmented Reality (AR). Let's go 🚀\n\nhttps://play.google.com/store/apps/details?id=com.AgrMayank.PlanetsAR").Share();
+        new NativeShare().SetTitle("Planets AR").SetText("\"Planets AR - A Guide to our Solar System 🚀 \"\n\n• Bring Planets to Life via Augmented Reality (AR).\n• View them in your room or see them in the night sky via 3D mode.\n• Works even at night, in dark rooms!!\n• An immersive AR experience to help the students learn faster!\n• Highly detailed and accurate 3D models sourced from NASA for both students and educators of all ages and more!!\n\nhttps://play.google.com/store/apps/details?id=com.AgrMayank.PlanetsAR").Share();
     }
 
     public void CaptureNativeScreenshot()
