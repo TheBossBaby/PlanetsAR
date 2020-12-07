@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Lean.Touch;
 using TMPro;
 
@@ -8,9 +9,14 @@ public class PlanetManager : MonoBehaviour
 {
     public GameObject[] m_Planets;
 
-    public GameObject m_ChoosePlanetMenu, m_BottomMenu, m_TopMenu;
+    public RectTransform[] m_ScrollableContent;
+    public RectTransform[] m_ScrollableViewport;
+
+    public ScrollRect m_InfoPanelScrollRect;
+
+    public GameObject m_ChoosePlanetMenu, m_BottomMenu, m_TopMenu, m_InfoPanel;
     public GameObject m_PlanetsParentGameobject;
-    public GameObject m_MovePlanetButton, m_RotatePlanetButton;
+    public GameObject m_MovePlanetButton, m_RotatePlanetButton, m_CameraButton, m_PlanetInfoContainerButton;
 
     public TMP_Text m_PlanetName;
 
@@ -36,8 +42,11 @@ public class PlanetManager : MonoBehaviour
         m_PlanetName.text = "";
 
         m_ChoosePlanetMenu.SetActive(true);
+        m_CameraButton.SetActive(true);
+
         m_BottomMenu.SetActive(false);
         m_TopMenu.SetActive(false);
+        m_InfoPanel.SetActive(false);
     }
 
     public void SetActivePlanet(int planetIndex)
@@ -48,8 +57,49 @@ public class PlanetManager : MonoBehaviour
         m_PlanetName.text = "" + m_Planets[planetIndex].name;
 
         m_ChoosePlanetMenu.SetActive(false);
+
         m_BottomMenu.SetActive(true);
         m_TopMenu.SetActive(true);
+
+        m_PlanetInfoContainerButton.GetComponent<Button>().enabled = true;
+        m_PlanetInfoContainerButton.transform.Find("BottomInfo").gameObject.SetActive(true);
+
+        SetInfoPanelData(planetIndex);
+    }
+
+    public void SetInfoPanelData(int panelIndex)
+    {
+        if (panelIndex != 12)
+        {
+            if (panelIndex > 12)
+            {
+                panelIndex -= 1;
+            }
+
+            m_PlanetInfoContainerButton.GetComponent<Button>().enabled = true;
+            m_PlanetInfoContainerButton.transform.Find("BottomInfo").gameObject.SetActive(true);
+
+            m_InfoPanelScrollRect.content = m_ScrollableContent[panelIndex];
+            m_InfoPanelScrollRect.viewport = m_ScrollableViewport[panelIndex];
+
+            DeactivatePanels(panelIndex);
+        }
+        else
+        {
+            m_PlanetInfoContainerButton.GetComponent<Button>().enabled = false;
+            m_PlanetInfoContainerButton.transform.Find("BottomInfo").gameObject.SetActive(false);
+        }
+
+    }
+
+    private void DeactivatePanels(int activatedPanel)
+    {
+        for (int i = 0; i < m_ScrollableViewport.Length; i++)
+        {
+            m_ScrollableViewport[i].gameObject.SetActive(false);
+        }
+
+        m_ScrollableViewport[activatedPanel].gameObject.SetActive(true);
     }
 
     private void DeactivatePlanets()
